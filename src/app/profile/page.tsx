@@ -1,6 +1,6 @@
 import React from "react";
 
-import s from './Profile.module.scss'
+import s from "./Profile.module.scss";
 import ContactButton from "@/components/contact-button/ContactButton";
 
 const page = () => {
@@ -13,7 +13,7 @@ const page = () => {
         <li>Учу: TypeScript, Next.js</li>
         <li>Хобби: Путешествия</li>
       </ul>
-       <ContactButton/>
+      <ContactButton />
     </section>
   );
 };

@@ -5,10 +5,9 @@ import Link from "next/link";
 import { getAllCharacters } from "@/lib/rick-and-morty-api";
 import Image from "next/image";
 
-const characters = await getAllCharacters()
+const characters = await getAllCharacters();
 
 const page = async () => {
- 
   return (
     <div>
       <div className={s.cards}>
@@ -18,7 +17,7 @@ const page = async () => {
               <h2>{t.name}</h2>
               <h2>{t.status}</h2>
               <div className={s.imageContainer}>
-                   <Image src={t.image} alt={""} fill className={s.image} />
+                <Image src={t.image} alt={""} fill className={s.image} />
               </div>
             </Link>
           );

@@ -1,0 +1,16 @@
+
+
+.header {
+    background-color: beige;
+    padding: 30px 20px;
+    margin-bottom: 40px;
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        a {
+            color: #000;
+            font-size: 20px;
+        }
+    }
+}

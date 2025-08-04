@@ -1,0 +1,23 @@
+
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    > .card {
+        padding: 20px;
+        border: 1px solid #fff;
+        border-radius: 15px;
+    }
+
+}
+
+
+
+
+.imageContainer {
+    position: relative;
+    width: 100%; 
+    aspect-ratio: 1 / 1;
+}
